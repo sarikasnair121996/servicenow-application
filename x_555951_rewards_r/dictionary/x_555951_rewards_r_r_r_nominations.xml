@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" label="R_R_Nominations" max_length="40" name="x_555951_rewards_r_r_r_nominations" sizeclass="8" type="collection">
+        <element label="Associate ID" max_length="10" name="associate_id" type="string"/>
+        <element choice="1" label="Build Initiative" max_length="40" name="build_initiative" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="1" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="2" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="3" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="4" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="5" sequence="4" value="5"/>
+            </choice>
+        </element>
+        <element label="Grade" max_length="20" name="grade" type="string"/>
+        <element label="Justification" max_length="1000" name="justification" type="string"/>
+        <element label="Name" max_length="32" name="name" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Portfolio" max_length="32" name="portfolio" reference="x_555951_rewards_r_pf_manager" type="reference"/>
+        <element choice="1" label="Portfolio Delivery" max_length="40" name="portfolio_delivery" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="1" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="2" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="3" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="4" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="5" sequence="4" value="5"/>
+            </choice>
+        </element>
+        <element label="Score" max_length="40" name="score" type="string"/>
+        <element label="Special Award" max_length="40" name="special_award" read_only="true" type="boolean"/>
+        <element choice="3" default="Requested" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Requested" sequence="0" value="Requested"/>
+                <element inactive_on_update="false" label="Approved" sequence="1" value="Approved"/>
+                <element inactive_on_update="false" label="Rejected" sequence="2" value="Rejected"/>
+            </choice>
+        </element>
+        <element label="Add Attachment" max_length="40" name="upload_image" type="file_attachment"/>
+        <index name="index">
+            <element name="portfolio"/>
+        </index>
+        <index name="index2">
+            <element name="name"/>
+        </index>
+    </element>
+</database>

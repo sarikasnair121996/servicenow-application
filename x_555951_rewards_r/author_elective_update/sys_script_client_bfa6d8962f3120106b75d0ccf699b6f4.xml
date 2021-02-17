@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>approval_column</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>approve color</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+//Change the color of the 'Approve' button to green
+changeButtonColor('approve', '#00CC00');
+//Change the color of the 'Reject' button to red
+changeButtonColor('reject', '#CC0000');
+}
+
+function changeButtonColor(buttonID, backgroundColor) {
+try{
+//Find the button(s) by ID and change the background color
+$$('button[id=' + buttonID + ']').each(function(elmt) {
+elmt.style.backgroundColor = backgroundColor;
+elmt.style.color = '#ffffff'; //make the button text white
+});
+}catch(e){}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-21 04:36:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bfa6d8962f3120106b75d0ccf699b6f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>approve color</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Rewards &amp; Recognization" source="x_555951_rewards_r">082d3b402f3020106b75d0ccf699b66f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rewards &amp; Recognization">082d3b402f3020106b75d0ccf699b66f</sys_scope>
+        <sys_update_name>sys_script_client_bfa6d8962f3120106b75d0ccf699b6f4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-21 04:36:36</sys_updated_on>
+        <table>sysapproval_approver</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Rewards &amp; Recognization">082d3b402f3020106b75d0ccf699b66f</application>
+        <file_path/>
+        <instance_id>39066f9adb4f0c1042b321c405961983</instance_id>
+        <instance_name>dev101501</instance_name>
+        <name>sys_script_client_bfa6d8962f3120106b75d0ccf699b6f4</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;approval_column&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;approve color&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+//Change the color of the 'Approve' button to green
+changeButtonColor('approve', '#00CC00');
+//Change the color of the 'Reject' button to red
+changeButtonColor('reject', '#CC0000');
+}
+
+function changeButtonColor(buttonID, backgroundColor) {
+try{
+//Find the button(s) by ID and change the background color
+$$('button[id=' + buttonID + ']').each(function(elmt) {
+elmt.style.backgroundColor = backgroundColor;
+elmt.style.color = '#ffffff'; //make the button text white
+});
+}catch(e){}
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-01-21 04:36:36&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;bfa6d8962f3120106b75d0ccf699b6f4&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;approve color&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Rewards &amp;amp; Recognization" source="x_555951_rewards_r"&gt;082d3b402f3020106b75d0ccf699b66f&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Rewards &amp;amp; Recognization"&gt;082d3b402f3020106b75d0ccf699b66f&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_bfa6d8962f3120106b75d0ccf699b6f4&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-01-21 04:36:36&lt;/sys_updated_on&gt;&lt;table&gt;sysapproval_approver&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1082540334</payload_hash>
+        <record_name>approve color</record_name>
+        <reverted_from/>
+        <source>c42dfb402f3020106b75d0ccf699b64f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-21 04:36:36</sys_created_on>
+        <sys_id>93c6d8962f3120106b75d0ccf699b6df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177233adf270000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-21 04:36:36</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>dbc6d896f1312010ea80eeb71f1c96de</update_guid>
+        <update_guid_history>dbc6d896f1312010ea80eeb71f1c96de:1082540334</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-21 04:37:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>53c4e408502e467ca552b0f70469c744</sys_id>
+        <sys_metadata>bfa6d8962f3120106b75d0ccf699b6f4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>approve color</sys_name>
+        <sys_package display_value="Rewards &amp; Recognization" source="x_555951_rewards_r">082d3b402f3020106b75d0ccf699b66f</sys_package>
+        <sys_parent display_value="Approval">e79d5bdbd8f210100c1d056eb83723ce</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Rewards &amp; Recognization">082d3b402f3020106b75d0ccf699b66f</sys_scope>
+        <sys_scope_delete display_value="">063ad5cd728c4ab780d414f72f1ee759</sys_scope_delete>
+        <sys_update_name>sys_script_client_bfa6d8962f3120106b75d0ccf699b6f4</sys_update_name>
+        <sys_update_version display_value="sys_script_client_bfa6d8962f3120106b75d0ccf699b6f4">93c6d8962f3120106b75d0ccf699b6df</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-21 04:37:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

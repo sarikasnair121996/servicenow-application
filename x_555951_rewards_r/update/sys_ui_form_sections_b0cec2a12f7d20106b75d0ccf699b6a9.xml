@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="b0cec2a12f7d20106b75d0ccf699b6a9" sys_domain="global" table="x_555951_rewards_r_r_r_nominations" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-19 05:25:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>30cecaa12f7d20106b75d0ccf699b6f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_555951_rewards_r_r_r_nominations" name="x_555951_rewards_r_r_r_nominations" sys_domain="global" view="Default view">b0cec2a12f7d20106b75d0ccf699b6a9</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_555951_rewards_r_r_r_nominations" sys_domain="global" view="Default view">06f704182f3020106b75d0ccf699b66a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-19 05:25:16</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_555951_rewards_r_r_r_nominations</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-19 05:25:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b0cec2a12f7d20106b75d0ccf699b6a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_555951_rewards_r_r_r_nominations</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Rewards &amp; Recognization" source="x_555951_rewards_r">082d3b402f3020106b75d0ccf699b66f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Rewards &amp; Recognization">082d3b402f3020106b75d0ccf699b66f</sys_scope>
+            <sys_update_name>sys_ui_form_sections_b0cec2a12f7d20106b75d0ccf699b6a9</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-19 05:25:16</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

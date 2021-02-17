@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_555951_rewards_r_pf_manager</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>related list count</name>
+        <order>40</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+	//var count = 2;
+	var ga = new GlideAggregate('x_555951_rewards_r_r_r_nominations');
+	ga.addQuery('portfolio',current.sys_id);
+	ga.addAggregate('COUNT');
+	ga.orderBy('created_by');
+	ga.query();
+	if(ga.next()){
+	var count = ga.getAggregate('COUNT');
+	}
+	
+	if(count>3){
+		gs.addInfoMessage(count);
+		current.setAbortAction(true);
+	}
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-08 05:28:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c04b39802f8560106b75d0ccf699b65d</sys_id>
+        <sys_mod_count>38</sys_mod_count>
+        <sys_name>related list count</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Rewards &amp; Recognization" source="x_555951_rewards_r">082d3b402f3020106b75d0ccf699b66f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rewards &amp; Recognization">082d3b402f3020106b75d0ccf699b66f</sys_scope>
+        <sys_update_name>sys_script_c04b39802f8560106b75d0ccf699b65d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-09 08:59:46</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=c04b39802f8560106b75d0ccf699b65d"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Rewards &amp; Recognization">082d3b402f3020106b75d0ccf699b66f</application>
+        <file_path/>
+        <instance_id>39066f9adb4f0c1042b321c405961983</instance_id>
+        <instance_name>dev101501</instance_name>
+        <name>sys_script_c04b39802f8560106b75d0ccf699b65d</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;false&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_555951_rewards_r_pf_manager&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;related list count&lt;/name&gt;&lt;order&gt;40&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+	//var count = 2;
+	var ga = new GlideAggregate('x_555951_rewards_r_r_r_nominations');
+	ga.addQuery('portfolio',current.sys_id);
+	ga.addAggregate('COUNT');
+	ga.orderBy('created_by');
+	ga.query();
+	if(ga.next()){
+	var count = ga.getAggregate('COUNT');
+	}
+	
+	if(count&gt;3){
+		gs.addInfoMessage(count);
+		current.setAbortAction(true);
+	}
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-12-08 05:28:37&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;c04b39802f8560106b75d0ccf699b65d&lt;/sys_id&gt;&lt;sys_mod_count&gt;38&lt;/sys_mod_count&gt;&lt;sys_name&gt;related list count&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Rewards &amp;amp; Recognization" source="x_555951_rewards_r"&gt;082d3b402f3020106b75d0ccf699b66f&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Rewards &amp;amp; Recognization"&gt;082d3b402f3020106b75d0ccf699b66f&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_c04b39802f8560106b75d0ccf699b65d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-12-09 08:59:46&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=c04b39802f8560106b75d0ccf699b65d"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1708017543</payload_hash>
+        <record_name>related list count</record_name>
+        <reverted_from/>
+        <source>c42dfb402f3020106b75d0ccf699b64f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-09 08:59:46</sys_created_on>
+        <sys_id>47a633542f05a0106b75d0ccf699b667</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17646ba59ea0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-09 08:59:46</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>4fa63354d305a0103ee4e70350e4ad66</update_guid>
+        <update_guid_history>4fa63354d305a0103ee4e70350e4ad66:-1708017543,1e5677148005a010e8ffa7f293cd33f1:-960117334,4c46fb146b05a010d0ef73670346949b:1007875071,56d5f7144705a010a8cba3e12dda4876:-977725830,1ab5f3145505a010f1a495683ccd065c:-1885252885,2a65fbd0e605a010727a95ab4a5aea7f:-201223181,9e557314bf05a010a1e7a654ec1aa74b:-1062123582,39e43fd0c605a0101e9fc22e9048608b:-1408424006,c154620ce0c560109e40740c841f8601:301645993,3d909acca88560102721137ce4c29ed3:-716027732,3e4e8accab8560103c33d042ef0b54cc:-1861286154,3d0e0accce856010e7ed2fe131c88f13:-716027732,a9dd02cc1c85601051f441f1455d3e7b:-1670562492,fe9dc2cc01856010733b2aea20955f5b:-1983240529,d74d02ccb6856010e879266260769712:802808897,dfcc0e4cc98560104a4efe603734ca9d:-1465758360,798c028c2985601068f1425b0b159eae:-1179297309,abdb0e4cb9856010b38c044c4703bb81:-902114921,ba4bca4cf7856010574b56db2b5177cb:1667503093,e3da4e0c72856010431b70da1a3519cb:1369065787,a74a460cdf856010b36549d03985e81a:1284758811,382a4e0c2f8560109e339ec2abea62d2:-1153450757,32e94e0cf38560100db103abe0bf7fac:1254872078,b459cec8da85601055c9cfadf6ed7cd9:1838632696,1b19020c2f856010981fd21ee6c22e62:1697365784,bd6846c821856010f6378d35748d35ba:-1686980025,4d9706c8558560101eb52e1396d8478a:-1044671707,5c578288d6856010caa68425f532ef41:-1674869988,492646885b85601078741d450aa69c4c:-891711114,2a954648a8856010fede4822c2943cf8:-1139579637,c2150284af856010304334c3770a619e:-1738874095,bf840648788560108ca260d57b0c3488:533418949,e9fe3944918560103dbe273ce84b62ca:84406383,1e8ef9446c8560103f92d1069ebc7798:4405954,3d3e39440b856010060fa3fd60b1d02e:-1629125872,1d9d3904f485601094d4b196b1251160:-794387578,794d790474856010ef374c3f4197f61c:157645622,b0fc3904b2856010d21b050f0d3f1020:1011227955,dccc3904108560100e3b276c1fd1ad06:-398167005</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-16 14:01:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>d1a75437522442b8a339de5f5e49dd10</sys_id>
+        <sys_metadata>c04b39802f8560106b75d0ccf699b65d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>related list count</sys_name>
+        <sys_package display_value="Rewards &amp; Recognization" source="x_555951_rewards_r">082d3b402f3020106b75d0ccf699b66f</sys_package>
+        <sys_parent display_value="PF_Manager">4460c8d02f3020106b75d0ccf699b63b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Rewards &amp; Recognization">082d3b402f3020106b75d0ccf699b66f</sys_scope>
+        <sys_scope_delete display_value="">063ad5cd728c4ab780d414f72f1ee759</sys_scope_delete>
+        <sys_update_name>sys_script_c04b39802f8560106b75d0ccf699b65d</sys_update_name>
+        <sys_update_version display_value="sys_script_c04b39802f8560106b75d0ccf699b65d">47a633542f05a0106b75d0ccf699b667</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-16 14:01:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

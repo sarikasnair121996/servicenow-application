@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script/>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_555951_rewards_r_terms and conditions.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+<style>
+		div.a {
+  		text-align: center;
+		}
+		div.b {
+  		box-sizing: content-box;  
+  		width: 960px;
+  		height: 400px;
+  		padding: 10px;  
+  		border: 1px solid black;
+		overflow: scroll;
+		text-align: justify;
+		margin-left: auto;
+  		margin-right: auto;
+		}
+		div.c {
+		text-align: center;
+		width:100px;
+		margin-left: auto;
+  		margin-right: auto;
+		}
+	
+	</style>
+	
+		<div class="a">
+			<h4><strong>Terms and Conditions of Usage</strong></h4>
+		</div>
+		<p>
+			
+			<div class="b">
+			<h5>
+				<p>Terms and Conditions</p>
+			</h5>
+			</div>
+		</p>
+				
+		<div class="c">
+			<button>Agree</button>
+			<br></br>
+			<button onclick="document.location='nav_to.do?uri=%2F$pa_dashboard.do'">Disagree</button>
+		</div>
+</j:jelly>]]></html>
+        <name>terms and conditions</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-05 11:29:18</sys_created_on>
+        <sys_id>b484c78b2fc220106b75d0ccf699b6d0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>terms and conditions</sys_name>
+        <sys_package display_value="Rewards &amp; Recognization" source="x_555951_rewards_r">082d3b402f3020106b75d0ccf699b66f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rewards &amp; Recognization">082d3b402f3020106b75d0ccf699b66f</sys_scope>
+        <sys_update_name>sys_ui_page_b484c78b2fc220106b75d0ccf699b6d0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-05 11:35:47</sys_updated_on>
+    </sys_ui_page>
+</record_update>

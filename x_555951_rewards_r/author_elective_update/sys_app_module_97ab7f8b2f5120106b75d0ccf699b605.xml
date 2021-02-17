@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Rewards &amp; Recognization">337ef7402f3020106b75d0ccf699b6bc</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>currency tables</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_555951_rewards_r_currency_table</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_555951_rewards_r.currency_table_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-30 08:40:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>97ab7f8b2f5120106b75d0ccf699b605</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>currency tables</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Rewards &amp; Recognization" source="x_555951_rewards_r">082d3b402f3020106b75d0ccf699b66f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rewards &amp; Recognization">082d3b402f3020106b75d0ccf699b66f</sys_scope>
+        <sys_update_name>sys_app_module_97ab7f8b2f5120106b75d0ccf699b605</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-30 08:40:36</sys_updated_on>
+        <timeline_page/>
+        <title>currency tables</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Rewards &amp; Recognization">082d3b402f3020106b75d0ccf699b66f</application>
+        <file_path/>
+        <instance_id>39066f9adb4f0c1042b321c405961983</instance_id>
+        <instance_name>dev101501</instance_name>
+        <name>sys_app_module_97ab7f8b2f5120106b75d0ccf699b605</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Rewards &amp; Recognization">337ef7402f3020106b75d0ccf699b6bc</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>currency tables</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_555951_rewards_r_currency_table</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_555951_rewards_r.currency_table_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-12-30 08:40:36</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>97ab7f8b2f5120106b75d0ccf699b605</sys_id><sys_mod_count>0</sys_mod_count><sys_name>currency tables</sys_name><sys_overrides/><sys_package display_value="Rewards &amp; Recognization" source="x_555951_rewards_r">082d3b402f3020106b75d0ccf699b66f</sys_package><sys_policy/><sys_scope display_value="Rewards &amp; Recognization">082d3b402f3020106b75d0ccf699b66f</sys_scope><sys_update_name>sys_app_module_97ab7f8b2f5120106b75d0ccf699b605</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-12-30 08:40:36</sys_updated_on><timeline_page/><title>currency tables</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>115641882</payload_hash>
+        <record_name>currency tables</record_name>
+        <reverted_from/>
+        <source>c42dfb402f3020106b75d0ccf699b64f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-30 08:40:36</sys_created_on>
+        <sys_id>1bab7f8b2f5120106b75d0ccf699b608</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>176b2ce5b740000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-30 08:40:36</sys_updated_on>
+        <type>Module</type>
+        <update_guid>53ab7f8b36512010573f47022cb37608</update_guid>
+        <update_guid_history>53ab7f8b36512010573f47022cb37608:115641882</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="currency tables">cc628cdf2f5120106b75d0ccf699b601</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-30 09:09:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>50b9b7cfc1154789ad964eb5f6419b31</sys_id>
+        <sys_metadata>97ab7f8b2f5120106b75d0ccf699b605</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>currency tables</sys_name>
+        <sys_package display_value="Rewards &amp; Recognization" source="x_555951_rewards_r">082d3b402f3020106b75d0ccf699b66f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Rewards &amp; Recognization">082d3b402f3020106b75d0ccf699b66f</sys_scope>
+        <sys_scope_delete display_value="">063ad5cd728c4ab780d414f72f1ee759</sys_scope_delete>
+        <sys_update_name>sys_app_module_97ab7f8b2f5120106b75d0ccf699b605</sys_update_name>
+        <sys_update_version display_value="sys_app_module_97ab7f8b2f5120106b75d0ccf699b605">1bab7f8b2f5120106b75d0ccf699b608</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-30 09:09:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

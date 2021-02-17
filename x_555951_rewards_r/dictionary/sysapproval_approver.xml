@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" label="Approval" max_length="40" name="sysapproval_approver" sizeclass="732" type="collection">
+        <element choice="1" label="Category" max_length="40" name="x_555951_rewards_r_category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Bronze" sequence="0" value="Bronze"/>
+                <element inactive_on_update="false" label="Silver" sequence="1" value="Silver"/>
+                <element inactive_on_update="false" label="Gold" sequence="2" value="Gold"/>
+            </choice>
+        </element>
+    </element>
+</database>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_parameter_set">
+    <sys_atf_parameter_set action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Build Initiative = 1
+Associate ID = 123467</description>
+        <order>1</order>
+        <parameters/>
+        <sys_class_name>sys_atf_parameter_set</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-16 11:21:46</sys_created_on>
+        <sys_id>d9cca7622fd220106b75d0ccf699b6fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Rewards &amp; Recognization" source="x_555951_rewards_r">082d3b402f3020106b75d0ccf699b66f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rewards &amp; Recognization">082d3b402f3020106b75d0ccf699b66f</sys_scope>
+        <sys_update_name>sys_atf_parameter_set_d9cca7622fd220106b75d0ccf699b6fd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-16 11:21:46</sys_updated_on>
+        <test display_value="My New Test">1e0b23222fd220106b75d0ccf699b62d</test>
+    </sys_atf_parameter_set>
+    <sys_variable_value action="delete_multiple" query="document_key=d9cca7622fd220106b75d0ccf699b6fd"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_parameter_set</document>
+        <document_key>d9cca7622fd220106b75d0ccf699b6fd</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-16 11:21:46</sys_created_on>
+        <sys_id>08ec2f222fd220106b75d0ccf699b65e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-16 11:21:46</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">bb0caf222fd220106b75d0ccf699b63a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_parameter_set</document>
+        <document_key>d9cca7622fd220106b75d0ccf699b6fd</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-16 11:21:46</sys_created_on>
+        <sys_id>40ec2f222fd220106b75d0ccf699b65f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-16 11:21:46</sys_updated_on>
+        <value>123467</value>
+        <variable display_value="">e16ba7222fd220106b75d0ccf699b68a</variable>
+    </sys_variable_value>
+</record_update>

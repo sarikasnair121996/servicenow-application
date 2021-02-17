@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="x_555951_rewards_r_category" label="Category" language="en" table="sysapproval_approver">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>x_555951_rewards_r_category</element>
+            <help/>
+            <hint/>
+            <label>Category</label>
+            <language>en</language>
+            <name>sysapproval_approver</name>
+            <plural>Categories</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-12-23 06:13:26</sys_created_on>
+            <sys_id>8bd65fb82f1120106b75d0ccf699b6d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Category</sys_name>
+            <sys_package display_value="Rewards &amp; Recognization" source="x_555951_rewards_r">082d3b402f3020106b75d0ccf699b66f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Rewards &amp; Recognization">082d3b402f3020106b75d0ccf699b66f</sys_scope>
+            <sys_update_name>sys_documentation_sysapproval_approver_x_555951_rewards_r_category_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-12-23 06:13:26</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

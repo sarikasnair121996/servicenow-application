@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Rewards &amp; Recognization">337ef7402f3020106b75d0ccf699b6bc</application>
+        <assessment/>
+        <device_type/>
+        <filter table="sysapproval_approver">approverDYNAMIC90d1921e5f510100a9ad2572f2b477fe^source_table=x_555951_rewards_r_r_r_nominations^EQ<item endquery="false" field="approver" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+            <item endquery="false" field="source_table" goto="false" newquery="false" operator="=" or="false" value="x_555951_rewards_r_r_r_nominations"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>My Approvals</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>sysapproval_approver</name>
+        <order>8</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_555951_rewards_r.pf_manager</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-16 10:02:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>aba7883a2f8d20106b75d0ccf699b675</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>My Approvals</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Rewards &amp; Recognization" source="x_555951_rewards_r">082d3b402f3020106b75d0ccf699b66f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rewards &amp; Recognization">082d3b402f3020106b75d0ccf699b66f</sys_scope>
+        <sys_update_name>sys_app_module_aba7883a2f8d20106b75d0ccf699b675</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-06 05:49:31</sys_updated_on>
+        <timeline_page/>
+        <title>My Approvals</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

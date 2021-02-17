@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="PF_Manager" max_length="40" name="x_555951_rewards_r_pf_manager" sizeclass="3" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Portfolio Manager" max_length="32" name="portfolio_manager" reference="sys_user" type="reference"/>
+        <element display="true" label="Portfolio Name" max_length="40" name="portfolio_name" type="string"/>
+        <index name="index">
+            <element name="portfolio_manager"/>
+        </index>
+    </element>
+</database>

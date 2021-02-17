@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_list_control">
+    <sys_ui_list_control action="DELETE">
+        <columns_condition/>
+        <edit_condition/>
+        <edit_default_filter/>
+        <edit_roles/>
+        <empty_condition/>
+        <filter_condition/>
+        <filter_roles/>
+        <hierarchical_lists>false</hierarchical_lists>
+        <label/>
+        <link_condition/>
+        <link_roles/>
+        <list_edit_insert_row>false</list_edit_insert_row>
+        <list_edit_ref_qual_tag/>
+        <list_edit_type/>
+        <name>x_555951_rewards_r_r_r_nominations</name>
+        <new_condition/>
+        <new_roles/>
+        <omit_columns_if_empty>false</omit_columns_if_empty>
+        <omit_count>false</omit_count>
+        <omit_count_views>false</omit_count_views>
+        <omit_count_views_list/>
+        <omit_drilldown_link>false</omit_drilldown_link>
+        <omit_edit_button>true</omit_edit_button>
+        <omit_filters>false</omit_filters>
+        <omit_if_empty>false</omit_if_empty>
+        <omit_links>false</omit_links>
+        <omit_new_button>false</omit_new_button>
+        <related_list/>
+        <sys_class_name>sys_ui_list_control</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-01 16:50:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3a85dc4a2fb024106b75d0ccf699b6c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_555951_rewards_r_r_r_nominations</sys_name>
+        <sys_overrides display_value="">global</sys_overrides>
+        <sys_package display_value="Rewards &amp; Recognization" source="x_555951_rewards_r">082d3b402f3020106b75d0ccf699b66f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rewards &amp; Recognization">082d3b402f3020106b75d0ccf699b66f</sys_scope>
+        <sys_update_name>sys_ui_list_control_3a85dc4a2fb024106b75d0ccf699b6c6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-01 16:50:44</sys_updated_on>
+    </sys_ui_list_control>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Rewards &amp; Recognization">082d3b402f3020106b75d0ccf699b66f</application>
+        <file_path/>
+        <instance_id>39066f9adb4f0c1042b321c405961983</instance_id>
+        <instance_name>dev101501</instance_name>
+        <name>sys_ui_list_control_3a85dc4a2fb024106b75d0ccf699b6c6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_list_control"><sys_ui_list_control action="INSERT_OR_UPDATE"><columns_condition/><edit_condition/><edit_default_filter/><edit_roles/><empty_condition/><filter_condition/><filter_roles/><hierarchical_lists>false</hierarchical_lists><label/><link_condition/><link_roles/><list_edit_insert_row>false</list_edit_insert_row><list_edit_ref_qual_tag/><list_edit_type/><name>x_555951_rewards_r_r_r_nominations</name><new_condition/><new_roles/><omit_columns_if_empty>false</omit_columns_if_empty><omit_count>false</omit_count><omit_count_views>false</omit_count_views><omit_count_views_list/><omit_drilldown_link>false</omit_drilldown_link><omit_edit_button>true</omit_edit_button><omit_filters>false</omit_filters><omit_if_empty>false</omit_if_empty><omit_links>false</omit_links><omit_new_button>false</omit_new_button><related_list/><sys_class_name>sys_ui_list_control</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-12-01 16:50:44</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3a85dc4a2fb024106b75d0ccf699b6c6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_555951_rewards_r_r_r_nominations</sys_name><sys_overrides display_value="">global</sys_overrides><sys_package display_value="Rewards &amp; Recognization" source="x_555951_rewards_r">082d3b402f3020106b75d0ccf699b66f</sys_package><sys_policy/><sys_scope display_value="Rewards &amp; Recognization">082d3b402f3020106b75d0ccf699b66f</sys_scope><sys_update_name>sys_ui_list_control_3a85dc4a2fb024106b75d0ccf699b6c6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-12-01 16:50:44</sys_updated_on></sys_ui_list_control></record_update>]]></payload>
+        <payload_hash>-526585254</payload_hash>
+        <record_name>x_555951_rewards_r_r_r_nominations</record_name>
+        <reverted_from/>
+        <source>c42dfb402f3020106b75d0ccf699b64f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-01 16:50:45</sys_created_on>
+        <sys_id>98c5508a2fb024106b75d0ccf699b6e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1761f36aa930000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-01 16:50:45</sys_updated_on>
+        <type>List Control</type>
+        <update_guid>50c5508ab4b02410ebcde7bc177912e5</update_guid>
+        <update_guid_history>50c5508ab4b02410ebcde7bc177912e5:-526585254</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-01 16:51:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_list_control">sys_ui_list_control</sys_db_object>
+        <sys_id>483f92d78e6c48688bf7107747891364</sys_id>
+        <sys_metadata>3a85dc4a2fb024106b75d0ccf699b6c6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_555951_rewards_r_r_r_nominations</sys_name>
+        <sys_package display_value="Rewards &amp; Recognization" source="x_555951_rewards_r">082d3b402f3020106b75d0ccf699b66f</sys_package>
+        <sys_parent display_value="R_R_Nominations">2d5ef7802f3020106b75d0ccf699b678</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Rewards &amp; Recognization">082d3b402f3020106b75d0ccf699b66f</sys_scope>
+        <sys_scope_delete display_value="">063ad5cd728c4ab780d414f72f1ee759</sys_scope_delete>
+        <sys_update_name>sys_ui_list_control_3a85dc4a2fb024106b75d0ccf699b6c6</sys_update_name>
+        <sys_update_version display_value="sys_ui_list_control_3a85dc4a2fb024106b75d0ccf699b6c6">98c5508a2fb024106b75d0ccf699b6e5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-01 16:51:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

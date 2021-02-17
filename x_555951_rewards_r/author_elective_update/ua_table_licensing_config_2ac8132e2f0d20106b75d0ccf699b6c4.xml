@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config">
+    <ua_table_licensing_config action="DELETE">
+        <is_fulfillment>false</is_fulfillment>
+        <license_condition/>
+        <license_model>none</license_model>
+        <license_roles/>
+        <name>x_555951_rewards_r_r_r_approvers</name>
+        <op_delete>true</op_delete>
+        <op_insert>true</op_insert>
+        <op_update>true</op_update>
+        <owner_condition/>
+        <sys_class_name>ua_table_licensing_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-16 06:35:31</sys_created_on>
+        <sys_id>2ac8132e2f0d20106b75d0ccf699b6c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_555951_rewards_r_r_r_approvers</sys_name>
+        <sys_package display_value="Rewards &amp; Recognization" source="x_555951_rewards_r">082d3b402f3020106b75d0ccf699b66f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rewards &amp; Recognization">082d3b402f3020106b75d0ccf699b66f</sys_scope>
+        <sys_update_name>ua_table_licensing_config_2ac8132e2f0d20106b75d0ccf699b6c4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-16 06:35:31</sys_updated_on>
+    </ua_table_licensing_config>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Rewards &amp; Recognization">082d3b402f3020106b75d0ccf699b66f</application>
+        <file_path/>
+        <instance_id>39066f9adb4f0c1042b321c405961983</instance_id>
+        <instance_name>dev101501</instance_name>
+        <name>ua_table_licensing_config_2ac8132e2f0d20106b75d0ccf699b6c4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config"><ua_table_licensing_config action="INSERT_OR_UPDATE"><is_fulfillment>false</is_fulfillment><license_condition/><license_model>none</license_model><license_roles/><name>x_555951_rewards_r_r_r_approvers</name><op_delete>true</op_delete><op_insert>true</op_insert><op_update>true</op_update><owner_condition/><sys_class_name>ua_table_licensing_config</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-12-16 06:35:31</sys_created_on><sys_id>2ac8132e2f0d20106b75d0ccf699b6c4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_555951_rewards_r_r_r_approvers</sys_name><sys_package display_value="Rewards &amp; Recognization" source="x_555951_rewards_r">082d3b402f3020106b75d0ccf699b66f</sys_package><sys_policy/><sys_scope display_value="Rewards &amp; Recognization">082d3b402f3020106b75d0ccf699b66f</sys_scope><sys_update_name>ua_table_licensing_config_2ac8132e2f0d20106b75d0ccf699b6c4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-12-16 06:35:31</sys_updated_on></ua_table_licensing_config></record_update>]]></payload>
+        <payload_hash>558373062</payload_hash>
+        <record_name>x_555951_rewards_r_r_r_approvers</record_name>
+        <reverted_from/>
+        <source>c42dfb402f3020106b75d0ccf699b64f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-16 06:35:31</sys_created_on>
+        <sys_id>e6c8132e2f0d20106b75d0ccf699b6c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1766a42cef70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-16 06:35:31</sys_updated_on>
+        <type>Table Subscription Configuration</type>
+        <update_guid>22c8132ece0d2010dcc60a8d0d20e9c6</update_guid>
+        <update_guid_history>22c8132ece0d2010dcc60a8d0d20e9c6:558373062</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-16 06:40:49</sys_created_on>
+        <sys_db_object display_value="" name="ua_table_licensing_config">ua_table_licensing_config</sys_db_object>
+        <sys_id>15fb75104c35490290d8a57b66ed00b1</sys_id>
+        <sys_metadata>2ac8132e2f0d20106b75d0ccf699b6c4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_555951_rewards_r_r_r_approvers</sys_name>
+        <sys_package display_value="Rewards &amp; Recognization" source="x_555951_rewards_r">082d3b402f3020106b75d0ccf699b66f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Rewards &amp; Recognization">082d3b402f3020106b75d0ccf699b66f</sys_scope>
+        <sys_scope_delete display_value="">063ad5cd728c4ab780d414f72f1ee759</sys_scope_delete>
+        <sys_update_name>ua_table_licensing_config_2ac8132e2f0d20106b75d0ccf699b6c4</sys_update_name>
+        <sys_update_version display_value="ua_table_licensing_config_2ac8132e2f0d20106b75d0ccf699b6c4">e6c8132e2f0d20106b75d0ccf699b6c6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-16 06:40:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

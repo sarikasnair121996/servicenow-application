@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="currency table" max_length="40" name="x_555951_rewards_r_currency_table" sizeclass="0" type="collection">
+        <element label="amount" max_length="20" name="amount" type="string"/>
+        <element label="conversion" max_length="40" name="conversion" type="string"/>
+        <element label="currency from" max_length="32" name="currency_from" reference="fx_currency" type="reference"/>
+        <element label="currency to" max_length="32" name="currency_to" reference="fx_currency" type="reference"/>
+        <index name="index">
+            <element name="currency_to"/>
+        </index>
+        <index name="index2">
+            <element name="currency_from"/>
+        </index>
+    </element>
+</database>

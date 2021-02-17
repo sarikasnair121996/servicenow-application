@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Imp Tmpl X 555951 Rewards R R R Nominations" max_length="40" name="u_imp_tmpl_x_555951_rewards_r_r_r_nominations" sizeclass="0" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Add Attachment" label="Add Attachment" max_length="40" name="u_add_attachment" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Associate ID" label="Associate ID" max_length="10" name="u_associate_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Build Initiative" label="Build Initiative" max_length="40" name="u_build_initiative" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Grade" label="Grade" max_length="20" name="u_grade" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Justification" label="Justification" max_length="1000" name="u_justification" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Name" label="Name" max_length="32" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Number" label="Number" max_length="40" name="u_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Portfolio" label="Portfolio" max_length="32" name="u_portfolio" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Portfolio Delivery" label="Portfolio Delivery" max_length="40" name="u_portfolio_delivery" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Score" label="Score" max_length="40" name="u_score" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Status" label="Status" max_length="40" name="u_status" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>2</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">ab2328132f7120106b75d0ccf699b682</sp_column>
+        <sp_widget display_value="Approval Record">525a2752cb30020000f8d856634c9cfd</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-24 08:33:57</sys_created_on>
+        <sys_id>2de96cd32f7120106b75d0ccf699b6de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Rewards &amp; Recognization" source="x_555951_rewards_r">082d3b402f3020106b75d0ccf699b66f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rewards &amp; Recognization">082d3b402f3020106b75d0ccf699b66f</sys_scope>
+        <sys_update_name>sp_instance_2de96cd32f7120106b75d0ccf699b6de</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-24 08:33:57</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=2de96cd32f7120106b75d0ccf699b6de"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Rewards &amp; Recognization">082d3b402f3020106b75d0ccf699b66f</application>
+        <file_path/>
+        <instance_id>39066f9adb4f0c1042b321c405961983</instance_id>
+        <instance_name>dev101501</instance_name>
+        <name>sp_instance_2de96cd32f7120106b75d0ccf699b6de</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>2</order><roles/><short_description/><size>md</size><sp_column display_value="1">ab2328132f7120106b75d0ccf699b682</sp_column><sp_widget display_value="Approval Record">525a2752cb30020000f8d856634c9cfd</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-01-24 08:33:57</sys_created_on><sys_id>2de96cd32f7120106b75d0ccf699b6de</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Rewards &amp; Recognization" source="x_555951_rewards_r">082d3b402f3020106b75d0ccf699b66f</sys_package><sys_policy/><sys_scope display_value="Rewards &amp; Recognization">082d3b402f3020106b75d0ccf699b66f</sys_scope><sys_update_name>sp_instance_2de96cd32f7120106b75d0ccf699b6de</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-01-24 08:33:57</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=2de96cd32f7120106b75d0ccf699b6de"/></record_update>]]></payload>
+        <payload_hash>2055551837</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>c42dfb402f3020106b75d0ccf699b64f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-24 08:33:57</sys_created_on>
+        <sys_id>a5e96cd32f7120106b75d0ccf699b6e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177338740370000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-24 08:33:57</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>ede96cd36271201069b43b5cc5b825df</update_guid>
+        <update_guid_history>ede96cd36271201069b43b5cc5b825df:2055551837</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">b4f9a0932f7120106b75d0ccf699b606</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-24 08:34:11</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>7e24e712caaf4b5084afeb231cf03c40</sys_id>
+        <sys_metadata>2de96cd32f7120106b75d0ccf699b6de</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Rewards &amp; Recognization" source="x_555951_rewards_r">082d3b402f3020106b75d0ccf699b66f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Rewards &amp; Recognization">082d3b402f3020106b75d0ccf699b66f</sys_scope>
+        <sys_scope_delete display_value="">063ad5cd728c4ab780d414f72f1ee759</sys_scope_delete>
+        <sys_update_name>sp_instance_2de96cd32f7120106b75d0ccf699b6de</sys_update_name>
+        <sys_update_version display_value="sp_instance_2de96cd32f7120106b75d0ccf699b6de">a5e96cd32f7120106b75d0ccf699b6e0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-24 08:34:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

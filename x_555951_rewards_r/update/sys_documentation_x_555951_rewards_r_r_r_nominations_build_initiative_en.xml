@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="build_initiative" label="Build Initiative" language="en" table="x_555951_rewards_r_r_r_nominations">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>build_initiative</element>
+            <help/>
+            <hint/>
+            <label>Build Initiative</label>
+            <language>en</language>
+            <name>x_555951_rewards_r_r_r_nominations</name>
+            <plural>Build Initiatives</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-26 05:20:58</sys_created_on>
+            <sys_id>a7e748182f3020106b75d0ccf699b693</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Build Initiative</sys_name>
+            <sys_package display_value="Rewards &amp; Recognization" source="x_555951_rewards_r">082d3b402f3020106b75d0ccf699b66f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Rewards &amp; Recognization">082d3b402f3020106b75d0ccf699b66f</sys_scope>
+            <sys_update_name>sys_documentation_x_555951_rewards_r_r_r_nominations_build_initiative_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-26 05:20:58</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

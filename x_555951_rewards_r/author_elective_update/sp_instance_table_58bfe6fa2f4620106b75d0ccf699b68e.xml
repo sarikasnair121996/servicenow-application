@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table">
+    <sp_instance_table action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field/>
+        <field_list/>
+        <filter/>
+        <glyph/>
+        <id/>
+        <maximum_entries>5</maximum_entries>
+        <order>1</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">dbafe6fa2f4620106b75d0ccf699b668</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Copy of Data Table from Instance Definit">04cfe1762f8220106b75d0ccf699b6b7</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-04 15:17:14</sys_created_on>
+        <sys_id>58bfe6fa2f4620106b75d0ccf699b68e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>nomi</sys_name>
+        <sys_package display_value="Rewards &amp; Recognization" source="x_555951_rewards_r">082d3b402f3020106b75d0ccf699b66f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rewards &amp; Recognization">082d3b402f3020106b75d0ccf699b66f</sys_scope>
+        <sys_update_name>sp_instance_table_58bfe6fa2f4620106b75d0ccf699b68e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-04 15:17:43</sys_updated_on>
+        <table>x_555951_rewards_r_r_r_nominations</table>
+        <title>nomi</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_table>
+    <sys_translated_text action="DELETE" query="documentkey=58bfe6fa2f4620106b75d0ccf699b68e"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Rewards &amp; Recognization">082d3b402f3020106b75d0ccf699b66f</application>
+        <file_path/>
+        <instance_id>39066f9adb4f0c1042b321c405961983</instance_id>
+        <instance_name>dev101501</instance_name>
+        <name>sp_instance_table_58bfe6fa2f4620106b75d0ccf699b68e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table"><sp_instance_table action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><display_field/><field_list/><filter/><glyph/><id/><maximum_entries>5</maximum_entries><order>1</order><order_by/><order_direction>asc</order_direction><roles/><short_description/><size>md</size><sp_column display_value="1">dbafe6fa2f4620106b75d0ccf699b668</sp_column><sp_page/><sp_widget display_value="Copy of Data Table from Instance Definit">04cfe1762f8220106b75d0ccf699b6b7</sp_widget><sys_class_name>sp_instance_table</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-02-04 15:17:14</sys_created_on><sys_id>58bfe6fa2f4620106b75d0ccf699b68e</sys_id><sys_mod_count>1</sys_mod_count><sys_name>nomi</sys_name><sys_package display_value="Rewards &amp; Recognization" source="x_555951_rewards_r">082d3b402f3020106b75d0ccf699b66f</sys_package><sys_policy/><sys_scope display_value="Rewards &amp; Recognization">082d3b402f3020106b75d0ccf699b66f</sys_scope><sys_update_name>sp_instance_table_58bfe6fa2f4620106b75d0ccf699b68e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-02-04 15:17:43</sys_updated_on><table>x_555951_rewards_r_r_r_nominations</table><title>nomi</title><url/><widget_parameters/></sp_instance_table><sys_translated_text action="delete_multiple" query="documentkey=58bfe6fa2f4620106b75d0ccf699b68e"/></record_update>]]></payload>
+        <payload_hash>-1953042980</payload_hash>
+        <record_name>nomi</record_name>
+        <reverted_from/>
+        <source>c42dfb402f3020106b75d0ccf699b64f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-04 15:17:43</sys_created_on>
+        <sys_id>9bcfa2fa2f4620106b75d0ccf699b661</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1776d9edbcb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-04 15:17:43</sys_updated_on>
+        <type>Instance with Table</type>
+        <update_guid>17cfa2faa6462010ac8818b039ec0561</update_guid>
+        <update_guid_history>17cfa2faa6462010ac8818b039ec0561:-1953042980,94bfe6fa94462010d477346d5a0f8590:345482576</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="nomi">3111763e2f4620106b75d0ccf699b685</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-04 15:23:21</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_table">sp_instance_table</sys_db_object>
+        <sys_id>04a792f88c2440c296e49aedbbcdb171</sys_id>
+        <sys_metadata>58bfe6fa2f4620106b75d0ccf699b68e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>nomi</sys_name>
+        <sys_package display_value="Rewards &amp; Recognization" source="x_555951_rewards_r">082d3b402f3020106b75d0ccf699b66f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Rewards &amp; Recognization">082d3b402f3020106b75d0ccf699b66f</sys_scope>
+        <sys_scope_delete display_value="">063ad5cd728c4ab780d414f72f1ee759</sys_scope_delete>
+        <sys_update_name>sp_instance_table_58bfe6fa2f4620106b75d0ccf699b68e</sys_update_name>
+        <sys_update_version display_value="sp_instance_table_58bfe6fa2f4620106b75d0ccf699b68e">9bcfa2fa2f4620106b75d0ccf699b661</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-04 15:23:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

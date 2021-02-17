@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-16 06:46:22</sys_created_on>
+        <sys_id>a14bdb6e2f0d20106b75d0ccf699b668</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_555951_rewards_r_rr_approvers.x_555951_rewards_r.rr_approvers_user</sys_name>
+        <sys_package display_value="Rewards &amp; Recognization" source="x_555951_rewards_r">082d3b402f3020106b75d0ccf699b66f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rewards &amp; Recognization">082d3b402f3020106b75d0ccf699b66f</sys_scope>
+        <sys_security_acl display_value="x_555951_rewards_r_rr_approvers">254bdb6e2f0d20106b75d0ccf699b665</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_a14bdb6e2f0d20106b75d0ccf699b668</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-16 06:46:22</sys_updated_on>
+        <sys_user_role display_value="x_555951_rewards_r.rr_approvers_user" name="x_555951_rewards_r.rr_approvers_user">154bdf2e2f0d20106b75d0ccf699b6a0</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Rewards &amp; Recognization">082d3b402f3020106b75d0ccf699b66f</application>
+        <file_path/>
+        <instance_id>39066f9adb4f0c1042b321c405961983</instance_id>
+        <instance_name>dev101501</instance_name>
+        <name>sys_security_acl_role_a14bdb6e2f0d20106b75d0ccf699b668</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-12-16 06:46:22</sys_created_on><sys_id>a14bdb6e2f0d20106b75d0ccf699b668</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_555951_rewards_r_rr_approvers.x_555951_rewards_r.rr_approvers_user</sys_name><sys_package display_value="Rewards &amp; Recognization" source="x_555951_rewards_r">082d3b402f3020106b75d0ccf699b66f</sys_package><sys_policy/><sys_scope display_value="Rewards &amp; Recognization">082d3b402f3020106b75d0ccf699b66f</sys_scope><sys_security_acl display_value="x_555951_rewards_r_rr_approvers">254bdb6e2f0d20106b75d0ccf699b665</sys_security_acl><sys_update_name>sys_security_acl_role_a14bdb6e2f0d20106b75d0ccf699b668</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-12-16 06:46:22</sys_updated_on><sys_user_role display_value="x_555951_rewards_r.rr_approvers_user" name="x_555951_rewards_r.rr_approvers_user">154bdf2e2f0d20106b75d0ccf699b6a0</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-1316175157</payload_hash>
+        <record_name>x_555951_rewards_r_rr_approvers.x_555951_rewards_r.rr_approvers_user</record_name>
+        <reverted_from/>
+        <source>c42dfb402f3020106b75d0ccf699b64f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-16 06:46:23</sys_created_on>
+        <sys_id>694bdb6e2f0d20106b75d0ccf699b66a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1766a4cbe200000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-16 06:46:23</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>a14bdb6e2b0d20100f6a5f6eb38dfc6a</update_guid>
+        <update_guid_history>a14bdb6e2b0d20100f6a5f6eb38dfc6a:-1316175157</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_555951_rewards_r_rr_approvers.x_555951_rewards_r.rr_approvers_user">67afdb222f4d20106b75d0ccf699b6ca</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-16 07:05:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>12bd89115b2344d68bb402cd9a450724</sys_id>
+        <sys_metadata>a14bdb6e2f0d20106b75d0ccf699b668</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_555951_rewards_r_rr_approvers.x_555951_rewards_r.rr_approvers_user</sys_name>
+        <sys_package display_value="Rewards &amp; Recognization" source="x_555951_rewards_r">082d3b402f3020106b75d0ccf699b66f</sys_package>
+        <sys_parent display_value="">254bdb6e2f0d20106b75d0ccf699b665</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Rewards &amp; Recognization">082d3b402f3020106b75d0ccf699b66f</sys_scope>
+        <sys_scope_delete display_value="">063ad5cd728c4ab780d414f72f1ee759</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_a14bdb6e2f0d20106b75d0ccf699b668</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_a14bdb6e2f0d20106b75d0ccf699b668">694bdb6e2f0d20106b75d0ccf699b66a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-16 07:05:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
