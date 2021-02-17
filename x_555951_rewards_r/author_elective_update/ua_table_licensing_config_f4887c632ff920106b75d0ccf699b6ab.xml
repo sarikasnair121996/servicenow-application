@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config">
+    <ua_table_licensing_config action="DELETE">
+        <is_fulfillment>false</is_fulfillment>
+        <license_condition/>
+        <license_model>none</license_model>
+        <license_roles/>
+        <name>x_555951_rewards_r_gamimp</name>
+        <op_delete>true</op_delete>
+        <op_insert>true</op_insert>
+        <op_update>true</op_update>
+        <owner_condition/>
+        <sys_class_name>ua_table_licensing_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-25 04:16:17</sys_created_on>
+        <sys_id>f4887c632ff920106b75d0ccf699b6ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_555951_rewards_r_gamimp</sys_name>
+        <sys_package display_value="Rewards &amp; Recognization" source="x_555951_rewards_r">082d3b402f3020106b75d0ccf699b66f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rewards &amp; Recognization">082d3b402f3020106b75d0ccf699b66f</sys_scope>
+        <sys_update_name>ua_table_licensing_config_f4887c632ff920106b75d0ccf699b6ab</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-25 04:16:17</sys_updated_on>
+    </ua_table_licensing_config>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Rewards &amp; Recognization">082d3b402f3020106b75d0ccf699b66f</application>
+        <file_path/>
+        <instance_id>39066f9adb4f0c1042b321c405961983</instance_id>
+        <instance_name>dev101501</instance_name>
+        <name>ua_table_licensing_config_f4887c632ff920106b75d0ccf699b6ab</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config"><ua_table_licensing_config action="INSERT_OR_UPDATE"><is_fulfillment>false</is_fulfillment><license_condition/><license_model>none</license_model><license_roles/><name>x_555951_rewards_r_gamimp</name><op_delete>true</op_delete><op_insert>true</op_insert><op_update>true</op_update><owner_condition/><sys_class_name>ua_table_licensing_config</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-01-25 04:16:17</sys_created_on><sys_id>f4887c632ff920106b75d0ccf699b6ab</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_555951_rewards_r_gamimp</sys_name><sys_package display_value="Rewards &amp; Recognization" source="x_555951_rewards_r">082d3b402f3020106b75d0ccf699b66f</sys_package><sys_policy/><sys_scope display_value="Rewards &amp; Recognization">082d3b402f3020106b75d0ccf699b66f</sys_scope><sys_update_name>ua_table_licensing_config_f4887c632ff920106b75d0ccf699b6ab</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-01-25 04:16:17</sys_updated_on></ua_table_licensing_config></record_update>]]></payload>
+        <payload_hash>-406281626</payload_hash>
+        <record_name>x_555951_rewards_r_gamimp</record_name>
+        <reverted_from/>
+        <source>c42dfb402f3020106b75d0ccf699b64f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-25 04:16:17</sys_created_on>
+        <sys_id>f8887c632ff920106b75d0ccf699b6ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17737c1b6100000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-25 04:16:17</sys_updated_on>
+        <type>Table Subscription Configuration</type>
+        <update_guid>34887c635af92010a3d8aa902de388ad</update_guid>
+        <update_guid_history>34887c635af92010a3d8aa902de388ad:-406281626</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 10:03:07</sys_created_on>
+        <sys_db_object display_value="" name="ua_table_licensing_config">ua_table_licensing_config</sys_db_object>
+        <sys_id>3cc353fd36db44d0a3af4936071a8440</sys_id>
+        <sys_metadata>f4887c632ff920106b75d0ccf699b6ab</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_555951_rewards_r_gamimp</sys_name>
+        <sys_package display_value="Rewards &amp; Recognization" source="x_555951_rewards_r">082d3b402f3020106b75d0ccf699b66f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Rewards &amp; Recognization">082d3b402f3020106b75d0ccf699b66f</sys_scope>
+        <sys_scope_delete display_value="">063ad5cd728c4ab780d414f72f1ee759</sys_scope_delete>
+        <sys_update_name>ua_table_licensing_config_f4887c632ff920106b75d0ccf699b6ab</sys_update_name>
+        <sys_update_version display_value="ua_table_licensing_config_f4887c632ff920106b75d0ccf699b6ab">f8887c632ff920106b75d0ccf699b6ad</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 10:03:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
